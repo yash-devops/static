@@ -3,7 +3,7 @@ pipeline{
   stages {
     stage('LintHTML') {
       steps {
-          sh 'tidy -q -e index.html'
+          sh 'tidy -q -e *.html'
       }
     }
     stage(‘UploadtoAWS’) {
