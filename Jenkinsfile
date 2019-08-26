@@ -1,4 +1,4 @@
-pipeline 
+pipeline{ 
   agent any 
   stages {
     stage(‘Upload_to_AWS’) {
@@ -9,4 +9,4 @@ pipeline
       }
     }
   }
-
+}
